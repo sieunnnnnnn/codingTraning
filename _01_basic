@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class _01_문자열앞n글자 {
+    public static void main(String[] args) {
+
+        // 변수 입력 받기
+        Scanner sc = new Scanner(System.in);
+        String my_string = sc.nextLine();
+        int n = sc.nextInt();
+
+        String result = my_string.substring(0,n);
+        System.out.println(result);
+
+
+
+    }
+}
